@@ -1,0 +1,258 @@
+.navedit {
+	height : 45px;
+}
+.button1 {
+	width: 170px;
+  background-color: white;
+  color: black;
+  border: 2px solid SeaGreen;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+}
+#carouselExampleIndicators .carousel-item {
+  max-height: 650px;
+  overflow: hidden;
+}
+#carouselExampleIndicators img {
+   width: 100%;
+   height: 500px;
+}
+
+.login {
+  margin-left: 70px;
+  margin-right: 10px;
+  
+}
+/* chia lưới */
+.grid{
+  margin-top: 20px;
+}
+/* .feature{
+  position: relative;
+} */
+.hot{
+  margin-top: 20px;
+}
+.hot img{
+  width: 40px;
+  height: 40px;
+}
+/* banner giua */
+.banner_giua img{
+  width: 100%;
+  margin: 50px 0;
+}
+
+/* Blog */
+.Feature-Product{
+ 
+  text-align: center;
+  margin-top: 40px;
+}
+.Feature-Product h2 {
+  font-weight: 800;
+  color: #990f0f;
+  margin-bottom: 45px;
+}
+.Feature-Product p {
+  font-weight: 400;
+  color: #990f0f;
+  margin-bottom: 45px;
+}
+/* .product {
+  position: relative;
+}
+.card-body{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+} */
+
+/* title luoi2 */
+.title h4{
+  
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-bottom: 45px;
+}
+.chi_tiet{
+  float: left;
+}
+.news_blog p{
+
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+
+}
+.news_blog h5 {
+  font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+.footer-style{
+  background-color:#aec3de;
+  width: 100%;
+}
+
+ .footer-style ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+}
+.info  li{
+  margin: 10px 0;
+}
+.useful-link h5 {
+  color: #1c1c1c;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.useful-link ul li a {
+  color:rgba(0,0,0,.5)!important;
+  font-size: 14px;
+  line-height: 32px;
+}
+/* product */
+.feature{
+  position: relative;
+}
+span.sale{
+  background-color: green;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 7px;
+  border-radius: 10px;
+  position: absolute; /*tuyệt dối*/
+  right: 5px;
+  top: 5px;
+}
+.page {
+  margin: 50px 0;
+}
+/* login */
+.form-login{
+  margin:70px auto;
+  width: 50%;
+  
+}
+/* contact */
+.contact {
+  margin: 70px 0;
+}
+.contact h4 {
+  color: #1c1c1c;
+  font-weight: 700;
+  margin-bottom: 6px;
+  margin-top: 18px
+
+}
+.contact-title{
+  text-align: center;
+ margin-top: 60px;
+ margin-bottom: 40px;
+}
+.contact-title h2{
+  color: #1c1c1c;
+  font-weight: 700;
+}
+.form-contact {
+  margin-bottom: 50px;
+}
+.group{
+  background-color: #CBC2B9;
+  margin: 30px auto;
+  height: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px #9d968f;
+  position: relative;
+}
+.range-input input{
+  -webkit-appearance: none;
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  margin: 0;
+  background-color: transparent;
+  transform: translateY(2px);
+  pointer-events: none;
+}
+.range-input input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 17px;
+  height: 17px;
+  background-color: #98C787;
+  border: 3px solid #cae08e;
+  border-radius: 50%;
+  box-shadow: inset 0 1px 2px #6f9163,
+  0 0 1px #6f9163;
+  pointer-events: auto;
+}
+.progress{
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-image: repeating-linear-gradient(
+          -45deg, #C7DB6B  0, #C7DB6B 3px,
+          #b7ca63  3px, #b7ca63  6px
+  );
+  border-radius: 5px;
+  background-attachment: fixed;
+}
+/*.range-text div{*/
+/*  position: absolute;*/
+/*  background-color: #6f9163;*/
+/*  color: #eee;*/
+/*  font-size: 7px;*/
+/*  padding: 5px;*/
+/*  left: 0;*/
+/*  width: 20px;*/
+/*  text-align: center;*/
+/*  border-radius: 3px;*/
+/*  top: 15px;*/
+/*  transform: translateX(-50%);*/
+/*}*/
+/*.range-text .text-max{*/
+/*  left: unset;*/
+/*  right: 0;*/
+/*  transform: translateX(50%);*/
+/*}*/
+
+/* reponsive */
+@media screen and (max-width:2000px  )  and (min-width: 995px){
+  
+.feature{
+  position: relative;
+}    
+.card-body_1{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+}
+@media screen and (max-width: 768px  )  and (min-width: 200px){
+  
+  .feature{
+    position: relative;
+  }    
+  .card-body_1{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
+  }
